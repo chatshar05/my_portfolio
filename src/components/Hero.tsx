@@ -33,7 +33,7 @@ export default function Hero() {
            className="w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden border border-indigo-500/30 shadow-[0_0_80px_rgba(99,102,241,0.2)] bg-slate-900/50 backdrop-blur-sm p-2"
         >
           <img 
-            src="../../public/profile.jpeg" 
+            src="/profile.jpeg"
             alt="Chaitanya Sharma" 
             className="w-full h-full object-cover rounded-full bg-slate-800" 
             onError={(e) => {
